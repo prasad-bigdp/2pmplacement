@@ -6,3 +6,17 @@ git website -->download --> windows ---> 64 setup ---> next --> check code edito
 check version by cmd ---> "git -v"
 
 Goto Github and create an account
+
+goto terminal
+git init
+git add .
+git commit -m "message"
+for first time, git config -g user.email "emailid"
+git config -g user.name "username"
+
+create a respository in github and talk its link
+
+git remote add origin "link"
+git push -u origin main/master
+
+for first time it ask you to login and authorize
