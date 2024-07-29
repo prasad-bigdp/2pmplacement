@@ -1,0 +1,7 @@
+what is Git and what is Github?
+Git is a distributed version control system. we need to download and install.
+
+git website -->download --> windows ---> 64 setup ---> next --> check code editor --> next until install and finish
+
+check version by cmd ---> "git -v"
+

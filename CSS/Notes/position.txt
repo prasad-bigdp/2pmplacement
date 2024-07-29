@@ -1,0 +1,9 @@
+Position is used to keep an element at certain position in viewport
+There are 5 positions in CSS
+1.static: it is the default position and it does not have any impact of top,bottom,left,right
+2.Relative : it makes an element move left or right or top or bottom from its previous position
+3.Absolute: it makes an element move left or right or top or bottom from the body perspective
+4.fixed: it is similar to Absolute but it will not have any impact of scrolling
+5. sticky: it is nothing but Relative + fixed. it gets fixed after specific position/point
+
+In case two elements with similar position collides for a specific point, then the one with more Z-index will overrides other

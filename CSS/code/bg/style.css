@@ -1,0 +1,41 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Playwrite+CU:wght@100..400&display=swap');
+
+body{
+      font-family: "Playwrite CU", cursive;
+   background: url('https://cdn.marvel.com/content/1x/avengers_2.jpg');
+   background-repeat: no-repeat;
+   ;
+   background-position: center;
+   background-size: cover;
+  
+   color: white;
+    height: 100vh;
+}
+p
+{
+    font-weight: 900;
+    font-style: italic;
+    font-size: 24px;
+} */
+ body{
+    font-size: 16px;
+ }
+ .myDiv{
+   background-color: antiquewhite;
+   border: 5px solid rgb(245, 0, 0);
+   border-bottom-left-radius: 80px;
+    border-top-right-radius: 80px;
+    height: 200px;
+ }
+ h1{
+  padding:30px;
+ }
+ .box{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    color: white;
+    padding:40px;/* tb lr*/
+    box-sizing: border-box;
+    margin: 20px;
+ }

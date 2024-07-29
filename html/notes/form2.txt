@@ -1,0 +1,24 @@
+for dropdowns , you can use 'select'
+select tag contains options with values to select
+<select name="gender">
+  <option value="m">Male</option>
+  <option value="f">Female</option>
+</select>
+
+if we want multiple element , add flag 'multiple' at select
+
+you can define sizes by attribute size
+
+you can also combines options by optgroup. optgroups can have name 'label'
+
+In HTML,Forms can be validated by Form validation flags such as 
+'required','max','min','maxlength','minlength','size','disabled','readonly'.
+
+For specific patterns , you can use 'pattern' attribute.
+patterns uses regular expressions.
+
+
+
+
+
+

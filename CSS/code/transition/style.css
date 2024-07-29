@@ -1,0 +1,17 @@
+h1{
+    font-size: 48px;
+    color:red;
+    transition: all 5s ease;
+}
+h1:nth-child(1):hover{
+ font-size: 60px;
+ transform: translateX(100px);
+}
+h1:nth-child(2):hover{
+ font-size: 60px;
+ transform: rotate(180deg);
+}
+h1:nth-child(3):hover{
+ font-size: 60px;
+ transform: scale(1.2);
+}

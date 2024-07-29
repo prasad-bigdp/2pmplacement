@@ -1,0 +1,5 @@
+Transition: transition controls an element from one state to another state
+transition-property: what properties to control / all
+transition-time: how much time needed for a transition(s or ms)
+transition-delay: time to delay
+transition-timing-function:

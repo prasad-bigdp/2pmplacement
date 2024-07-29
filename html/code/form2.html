@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0" />
+		<title>Forms2</title>
+	</head>
+	<body>
+		<!--Radio buttons-->
+		<span>Gender: </span
+		><input
+			type="radio"
+			name="gender"
+			id="m" />
+		<label for="m">Male</label>
+		<input
+			type="radio"
+			name="gender"
+			id="f" />
+		<label for="f">Female</label><br /><br />
+		<span>Skills Known:</span>
+		<input
+			type="checkbox"
+			name="skills"
+			id="comedy" />
+		<label for="comedy">Comedy</label>
+		<input
+			type="checkbox"
+			name="skills"
+			id="Guitar" />
+		<label for="Guitar">Music</label>
+		<input
+			type="checkbox"
+			name="skills"
+			id="html" />
+		<label for="html">HTML</label>
+		<span>Course:</span>
+
+		<select
+			name="branch"
+			id="branch"
+			multiple
+			size="1">
+			<option value="CSE">CSE</option>
+			<option value="ECE">ECE</option>
+			<option value="EEE">EEE</option>
+			<option value="Mech">MEch</option>
+			<option value="Civil">Civil</option>
+			<option value="IT">IT</option>
+			<option value="chemical">chemical</option>
+			<option value="DSAI">DSAI</option>
+		</select>
+
+		<select
+			name="subject"
+			id="subject">
+			<optgroup label="CSE">
+				<option value="">DBMS</option>
+				<option value="">DSA</option>
+				<option value="">OS</option>
+				<option value="">TOC</option>
+			</optgroup>
+			<optgroup label="EEE">
+				<option value="">AEC</option>
+				<option value="">BEEE</option>
+				<option value="">IOT</option>
+				<option value="">SS</option>
+			</optgroup>
+			<optgroup label="MECH">
+				<option value="">DOM</option>
+				<option value="">CAD</option>
+			</optgroup>
+		</select>
+	</body>
+</html>

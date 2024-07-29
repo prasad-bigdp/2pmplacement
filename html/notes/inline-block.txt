@@ -1,0 +1,11 @@
+some elements allow other elements appear beside them, they are called inline elements and some elements don't allow , they are called block
+Examples of inline elemnts are a, img,input etc..,
+Examples of Block elements are heading,p,lists
+
+Elements vs tags
+<h1> -- h1 open tags
+</h1> -- h1 closing tags
+<h1>content</h1> ---  h1 element
+
+General inline --- span
+General Block -- div

@@ -1,0 +1,43 @@
+BAckground properties of a elements consists of background image, background-color
+background-color: color by name or hex code or rgb(each color ranges from 0 to 255) or rgba(a stands for alpha ranges from 0.0 to 1.0) or hsl(hue- degree(0 to 359), s - staturation(0 to100% darkness),l - lightness(0 to 100% light)),hsla
+background can also be gradient
+background:linear-gradient(to left,color1,color2) - show transition of colors from color1 to color2 in a straight way
+radial-gradient(color1,color2)-- show transition of colors from color1 to color2 in circular way
+
+background-image property uses url and it needs to be adjusted by following properties
+background-repeat: reat-x/repeat-y/repeat/no-repeat
+background-position:left/right/top/bottom/center
+background-size:cover/contain/auto;
+
+Fonts: fonts are used to represent content in different ways
+there are 5 font types existed 
+1.serif  -  stroke at end of every letter eg: Times New Roman
+2.sans-serif - sans means no, no strokes eg: Arial
+3.monospace - same height all letters Eg: Monospace
+4.cursive - styled slant letters Eg: calibri
+5.fantasy - any caligraphic letters which are new eg:disney font,harry potter font
+
+Units:  Units are used to measure the size
+px- pixels are the smallest Units
+em - enumerated values -- x times of parents font size
+rem - root enumerated values -- x times the root or body font size(by default 16px)
+vw -- viewport width -- used to specify x% of visible width
+vh -- viewport height -- used to specify x% of visible height
+% -- we can also specify elements using percentages.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

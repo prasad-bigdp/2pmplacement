@@ -1,0 +1,9 @@
+header, footer, nav,, main,section,article,aside, thead,tbody,tfoot etc..,
+To make your code accessable and reable to search engines, we wrap up our code into some block elements called as semantic elements
+
+classes and ID's:
+To identify each and every element we can give names 
+
+
+
+

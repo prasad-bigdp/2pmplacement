@@ -1,0 +1,44 @@
+forms are used to take input from the user. 
+we use input tags to collect inputs. 
+input is a self closing, inline element and it contains following attributes
+ -- type : defines the type of the input
+ -- name : define the name that carries value to destination
+ -- id   : used to identify the element uniquely
+ -- placeholder: dummy text placed until actual value enters
+ -- value : defines prefilled value for input
+form also contains two attributes such as
+ -- action: path of destination file
+ -- method: how we send the data. there are two ways
+ get ---> data is visible in URL
+ post---> data won't be visible in URL
+
+text
+email
+password
+number
+tel
+date
+datetime-local
+time
+month
+week
+URL
+search
+file
+color
+textarea
+hidden
+range
+
+
+-----
+radio
+checkbox
+
+
+
+ 
+  
+
+
+

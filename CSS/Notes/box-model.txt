@@ -1,0 +1,20 @@
+Box model is considered as the heart of css. Every element in Web page is considered as a BOX.  A box contains
+1. border : outline/outermost line of a box/element
+eg: border: width type color;
+we can also specify borders for left/right/top/bottom separetly
+
+The corner radius can be given by border-radius: size;
+you can also mention border-top-left-radius , border-top-right-radius,border-bottom-left-radius,border-bottom-right-radius
+
+2. padding:
+padding is the gap between border and content inside the box
+padding-left,padding-right,padding-bottom,padding-top can be used for spefic paddings;
+padding: size; size will be given for all sides
+padding: size1 size2; size 1 will be given for top and bottom, size2 will be given for left and right;
+padding: size1 size2 size3 size4; top right bottom left
+
+There is a chance that padding might increase actual height/width of a box, to avoid it use box-sizing:border-box
+
+3. margin: margin is similar to padding but it gives space outside the box
+
+

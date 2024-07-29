@@ -1,0 +1,20 @@
+*{
+    box-sizing: border-box;
+}
+.box{
+    padding: 10px;
+    background-color: black;
+    color: white;
+    margin: 10px;
+}
+/* .box:nth-child(1)
+{
+    background-color: red;
+}
+.box:nth-last-child(4){
+    background-color: green;
+} */
+ .main>div:nth-of-type(1)
+ {
+    background-color: red;
+ }

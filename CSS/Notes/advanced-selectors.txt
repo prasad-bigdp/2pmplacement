@@ -1,0 +1,36 @@
+child selector: 
+div>p
+descendent selector: 
+div p
+sibling selector: 
+div+p
+attribute selector:
+input[type="text"]
+
+Pseudo elements and Pseudo classes: we can select elements based on specific conditions using Pseudo Selectors.
+
+Pseudo classes: pseudo classes followed by :: and are used to select different positions of an element
+1. ::placeholder: used to select placeholder of a input element
+2. ::before: used to select or insert elements before an element. insertion can be done by content
+3. ::after: used to select or insert elements after an element . insertion can be done by content
+4. ::first-letter: used for selecting the first letter of an element
+5. ::first-line: used for selecting the first line of an element
+
+Pseudo Elements: Pseudo elements selects elements based on specific conditions.Pseudo elements followed by :
+:first-child: select the first child element
+:last-child:select the last child element
+#abc:first-child ---> elements with id abc and first childern will be selected
+:nth-child(num) --> selects elements with specific number
+:nth-last-child(num)--> selects elements with specific number from last
+:nth-of-type(num) --> selects elements with specific type and numth child
+:nth-last-of-type(num) --> selects elements with specific type and numth child from last
+:required
+:optional
+:read-only
+:read-write
+:disabled
+:enabled
+:focus
+:link
+:active
+:visited

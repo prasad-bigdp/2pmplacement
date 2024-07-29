@@ -1,0 +1,19 @@
+Float is used to make elements float left or right of user flow. it removes the element from actual execution
+to clear the float you can use float:none;
+
+to clear floating element beside any other element , you can use clear:left/right/both.
+
+Display is used to change the elements nature from inline to block or block to inline
+--> inline elements cannot have height or width, so to make elements inline and apply height/width you can specify, inline-block
+-->you can make an element disappear by display:none;
+================
+Display:flex
+===============
+
+
+
+
+
+
+
+

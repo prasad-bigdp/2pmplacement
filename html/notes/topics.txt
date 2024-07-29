@@ -1,0 +1,28 @@
+internet fundamentals
+hashnode,dev.to,medium
+web developement process(uI/Ux design - figma)
+vscode
+
+HTML
+-------------------
+introduction, Structure
+headings,p, anchor
+formatting,images
+lists(ul,li,dl)
+block vs inline
+tables
+semantic elements
+icons
+media
+forms
+inputs
+validations
+classes and ids
+HTML5
+
+Projects
+-----------------------
+WWW Projects
+Profile Projects
+Time Tables
+Resume

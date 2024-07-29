@@ -1,0 +1,19 @@
+ /* p
+    {
+        background-color: red;
+    } */
+
+    p  /* tag name*/
+    {
+     background-color: green;
+     height: 100px;
+     width: 100px;
+    }
+    .x /* class name */
+    {
+        background-color: red;
+    }
+    #y
+    {
+        background-color: blue;
+    }

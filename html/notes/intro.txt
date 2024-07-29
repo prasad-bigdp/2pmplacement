@@ -1,0 +1,26 @@
+HTML: Hyper Text Markup Language is used to define the Structure/skeleton of the Web Page.
+Tim Berners Lee started WWW and HTML in 1989-92
+WWW Project is Officialy the first website in internet 
+W3C(world wide web consoritum) is an organization that sets standard to Web languages
+WYSIWYG  - What you see is what you get
+
+Current version of HTML is HTML5
+
+
+HTML everything consists of tags, 
+<html>
+<!-- comment -->
+<!-- indentation is the gap leftside of elements for better readability -->
+  <head>
+  <!-- meta data --->
+    <title>new html</title>
+  </head>
+  <body>
+     <!-- content -->
+  </body>
+</html>
+
+
+
+
+

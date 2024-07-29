@@ -1,0 +1,18 @@
+tables in HTML are used to represent the data in rows and columns
+tables are created by table element
+<table>..........</table>
+table contains rows denoted by tr
+table data is represented by either th or td
+th -- table head , by default this content will be bold and centered
+td- table data , it's normal table data- left aligned
+
+table also contains attributes such as cellspacing,cellpadding but we don't use them , instead we prefer CSS
+
+each td or th also use attributes such as rowspan or colspan
+rowspan is used to group the row elements
+colspan is used to group the column elements
+
+
+
+
+

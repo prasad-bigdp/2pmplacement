@@ -1,0 +1,6 @@
+HTML5 introduces topics like
+1. canvas
+2. svg
+3. drag n drop
+4. geolocation
+5. data attributes

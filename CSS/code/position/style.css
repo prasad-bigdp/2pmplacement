@@ -1,0 +1,85 @@
+*{
+    box-sizing: border-box;
+}
+.box{
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    margin: 10px;
+    color: white;
+}
+/* .main>p
+{
+color: red;
+} */
+.main+p{
+    color: red;
+}
+/* input[type="text"]{
+    background-color: rgb(81, 255, 0);
+    color: white;
+} */
+input::placeholder{
+    color: red;
+}
+.main p::first-line{
+    color: green;
+    font-size: 48px;
+}
+.main>p::before{
+    content:open-Quote;
+    font-size: 48px;
+}
+.main>p::after{
+    content:close-Quote;
+    font-size: 48px;
+}
+/* .box1{
+   z-index: 52;
+    position: absolute;
+ top: 0px;
+}
+.box3{
+ /* position: sticky;
+ top: 0px;
+ background-color: blue; */
+ /* position: absolute;
+ background-color: blue;
+ top: 0px;
+ z-index: 51;
+}
+.box2{
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+} */ 
+
+/* input:optional{
+    background-color: red;
+} */
+
+/* input:read-write{
+    background-color: red;
+} */
+/* input:enabled{
+    background-color: red;
+} */
+/* input:focus{
+    outline: 1px solid red;
+} */
+a{
+    color: yellow;
+}
+a:active{
+    color:red
+}
+a:visited{
+    color: blue;
+}
+
+
+
+
+
+
+

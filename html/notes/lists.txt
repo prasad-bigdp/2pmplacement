@@ -1,0 +1,25 @@
+lists are used to list out the data or set of items
+shopping list,contact lists, playlist,attendance
+lists in HTML are three types:
+1.ordered lists
+<ol>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+</ol>
+ol also have types 1 ,A,a,i,I
+ol also attribute as start which will take starting number
+2.unordered lists: used to represnt lists which order is not important
+<ul>
+<li></li>
+<li></li>
+<li></li>
+</ul>
+
+3. definition/description lists: used to represent defintion/ set of events
+
+<dl>
+  <dt></dt>
+  <dd></dd>
+</dl>

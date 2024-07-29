@@ -1,0 +1,16 @@
+.parent img
+{
+    float: right;
+}
+.parent p{
+    clear: right;
+}
+.box{
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    color: white;
+    margin: 10px;
+display: inline-block;}
+.box2{
+visibility: hidden;}

@@ -1,0 +1,22 @@
+Grid is used to create or arrange items in two directional i.e., rows and columns
+it can also be used to create complex layouts
+parent properties:
+display:grid;
+grid-template-columns:100px 100px 200px will create 3 column with 100px,100px and 200px width respectively
+you can also set width by %,em,fr,auto
+similarly, we can try grid-template-rows
+we can combine as grid-template:grid-template-rows/grid-template-columns
+justify-content: move horizontally
+align-items: move vertically
+gap: will create gap between items
+
+
+child properties:
+grid-column-start,
+grid-column-end
+grid-column
+grid-row-start
+grid-row-end
+grid-row
+grid-area:row-start/column-start/row-end/column-end;
+order: by default order is zero
