@@ -1,0 +1,34 @@
+Libraries are pre written code used for specific purpose
+
+libraries are shared by npm or cdn
+
+Popular libraries of CSS are animate, Bootstrap
+
+Bootstrap is a css library used for responsive layouts. we can
+link bootstrap to HTML by cdn links. Bootstrap also provides Component
+To understand Bootstrap, we need to understand 4 concepts
+1. colors
+2. Breakpoints & layouts
+3. Utilites
+4. Components
+
+The current version of Bootstrap is bootstrap5 and official website getbootstrap.com
+
+1. colors: Bootstrap uses 8 basic colors (primary,secondary,success,danger,warning,info,dark,light)
+
+2. layout and breakpoints:
+Bootstrap divides grid layout of 12 columns for each row
+
+Bootstrap follows Mobile First Approach
+
+
+
+
+
+
+
+
+
+
+
+

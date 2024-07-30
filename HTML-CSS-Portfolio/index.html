@@ -6,13 +6,23 @@
     <title>HTML-CSS-Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="https://media.istockphoto.com/id/1135090585/vector/letter-p-logo-icon-design.jpg?s=612x612&w=0&k=20&c=lzfzb__61ufKGy-mvrHDriaazQW9iMGj5HK52PQTH9Y=" type="image/x-icon">
+      <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magic/1.1.0/magic.min.css" integrity="sha512-5KJYgPF7pe0cdJAg/9X6UdHE5cN9fqjjIi8ASyIqlcsKZdHVouNRcweLGEdtrIJJxMn+GqwJBjAurCjWOvEdJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <style>
+    .animate__rotateInDownRight{
+        animation-duration: 10s;
+    }
+  </style>
 </head>
 <body>
     <header>
-        <div class="logo">
+        <div class="logo animate__animated animate__bounce">
             < P R A <span>S A D</span> />
         </div>
-        <nav class="menu">
+        <nav class="menu animate__animated animate__backInRight">
             <ul>
                 <li><a href="#banner">{Home}</a></li>
                 <li><a href="#about">{About}</a></li>
@@ -25,7 +35,7 @@
         <section id="banner">
             <div class="left">
                 <h1>HI, Everyone   I'm  <br>
-                  <span>< / F U L L S T A C K <br> D E V E L O P E R ></F></span> </h1>
+                  <span class="twisterInDown">< / F U L L S T A C K <br> D E V E L O P E R ></F></span> </h1>
                 <p>
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni nobis ut fuga corrupti nesciunt tempore alias laborum qui magnam quis deleniti quam quaerat perspiciatis, provident praesentium accusamus illo eos sit. 
                 </p>
@@ -34,7 +44,7 @@
                     <button><a href="" download>Download Resume</a></button>
                 </div>
             </div>
-            <div class="right">
+            <div class="right animate__animated animate__rotateInDownRight">
                 <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script> 
 
     <dotlottie-player src="https://lottie.host/ba34417e-314f-47cc-a5da-b874d1cd592d/tlL5h53p5F.json" background="transparent" speed="1" id="lottie-file" loop autoplay></dotlottie-player>
