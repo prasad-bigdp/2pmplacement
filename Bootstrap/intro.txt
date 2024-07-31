@@ -1,4 +1,4 @@
-Libraries are pre written code used for specific purpose
+dLibraries are pre written code used for specific purpose
 
 libraries are shared by npm or cdn
 
@@ -20,6 +20,33 @@ The current version of Bootstrap is bootstrap5 and official website getbootstrap
 Bootstrap divides grid layout of 12 columns for each row
 
 Bootstrap follows Mobile First Approach
+<div class="row>
+   <div class="col-4"></div>
+   <div class="col-8"></div>
+</div>
+
+
+<=576    none
+576-767   sm
+768 - 997 md
+998 -1200 lg
+1200-1400 xl
+>=1400    xxl
+
+
+we can use utilities like m for margin, p for padding, h for height,w for width, border for border, rounded for border radius, d-flex for display flex,
+postiotn-absolute to set postiton absolute etc..,
+
+
+Bootstrap cannot provide pseudo elements/classes and it also can't provide animations
+
+Bootstrap directly provides components to make our work easy. for that, js of bootstrap cdn has to be link
+
+
+
+
+
+
 
 
 
