@@ -1,0 +1,3 @@
+JS runs in browser using JS engine
+JS engines maintain global execution content by window and execute code
+Hoisting is a process which moves declarations of variables, functions to the top their code before execution of code

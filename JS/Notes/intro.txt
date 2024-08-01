@@ -1,0 +1,38 @@
+what is Javascript?
+  Javascript is client side programming language used for the functionality of Web Pages
+  JS runs on Browsers. Browsers have JS engine.
+  chrome -v8, firefox - spiderMonkey,edge - chakra etc..,
+  Javascript is Synchronous(line by line), Single threaded(one task at a time) programming language
+
+How to connecr JS into HTML?
+There are two ways to connect Javascript to HTML
+  i. internal JS: we can assign javascript in HTML using script element
+  <script>
+   js code
+   </script>
+  ii.external JS:we can assign external JS in HTML using script tag and src attribute for path
+  <script src="path"></script>
+
+3. what are developer tools and how to use them?
+  Any website needs to inspect for debugging purposes. every browser will give inspect option either by right click or ctrl+shift+i. popular inspet options are elements, console,sources, network, performance,memory,application,lighthouse
+
+  console knows JS because of JS engines, so it can print/log any value
+
+4. what are comments? how to assign comments in JS?
+comments are for only readability purposes
+there are two types of comments 
+  1. single line comments: single line comment followed by //
+  2. multi line comments: multiline comments are between /*  and */
+
+5. what are variables and how many ways you can declare them?
+var , let ,const
+
+
+
+
+
+
+
+
+
+
