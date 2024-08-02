@@ -1,0 +1,43 @@
+Javascript is dynamically typed language. it means variables won't have fixed/static data typing
+Data types are categorized as two types
+ i. primitve: primitve data types considers values
+ There are 5 popular Primitve data types are:
+   a.number: any numerical value is considered as number. sometimes mathematical operation on number may result NaN(Not a number)
+   we can perform some mathematical operations on numbers using Math Methods and numbers also have default methods like toFixed,toPrecision,toString
+   console.log(a.toFixed(2)) // number of decimal digits
+console.log(a.toPrecision(3)) // total number of digits
+console.log(b.toString(2)) // it converts number into certain base
+//Math Methods
+console.log(Math.max(3, 5)) // 5 - maximum value
+console.log(Math.min(5, 8)) //5 - minimum value
+console.log(Math.sqrt(16)) //4- square root
+console.log(Math.cbrt(27)) //3 - cube root
+console.log(Math.pow(2, 3), 2 ** 3) //8 - 2 power 3
+console.log(Math.floor(3.8)) //3 - lowest nearest integer
+console.log(Math.ceil(3.2)) //4 - highest nearest integer
+console.log(Math.round(3.5)) //4 - rounding up the value
+console.log(Math.round(Math.random() * 10000)) // random value between 0.0 to 1.0
+
+   b.string: strings are used to store character/letters/symbols/ any alphanumerical values;
+   strings can be represented by ' ' or " " or ` `
+   '' or "" have no differences in js but we use them based on content 
+   template literals uses back ticks, they are used to print values in strings without breaking the flow
+   console.log(`the cost is ${cost}`)
+ // string methods
+   strings have some default methods like
+
+
+
+
+
+
+
+
+   c.boolean
+   d.null
+   e.undefined
+ ii. non-primitive: non primitive data types considers address. they are also called reference data types
+ Popular non-primitive data types are:
+   a. Arrays
+   b. objects
+   c. functions

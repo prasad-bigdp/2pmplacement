@@ -1,5 +1,5 @@
 console.log("hello world")
-console.log(a)
+console.log(k)
 var a = 25;
 var a = 30; // redeclaration is possible using var
 a = 55; // reassigning is allowed using var

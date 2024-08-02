@@ -1,0 +1,4 @@
+1. what is JS?
+2. what are the differences bwteen let,const and var?
+3. what are developer tools? how to use them?
+4. what is hoisting? what is execution content? what is call stack?

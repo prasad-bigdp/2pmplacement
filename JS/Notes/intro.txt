@@ -4,7 +4,7 @@ what is Javascript?
   chrome -v8, firefox - spiderMonkey,edge - chakra etc..,
   Javascript is Synchronous(line by line), Single threaded(one task at a time) programming language
 
-How to connecr JS into HTML?
+How to connect JS into HTML?
 There are two ways to connect Javascript to HTML
   i. internal JS: we can assign javascript in HTML using script element
   <script>
@@ -26,6 +26,18 @@ there are two types of comments
 
 5. what are variables and how many ways you can declare them?
 var , let ,const
+
+variables are used to store values. we can declare them using var,let or const
+
+var can redeclare and reassign
+let cannot redeclare but can reassign
+const cannot redeclare and reassign
+
+var is function scoped variables
+let and const are block scoped variables
+
+var can access values before declaration
+let and const cannot access before declaration
 
 
 
