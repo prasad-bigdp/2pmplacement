@@ -26,16 +26,33 @@ console.log(Math.round(Math.random() * 10000)) // random value between 0.0 to 1.
  // string methods
    strings have some default methods like
 
+let cost = 55;
+console.log(`the cost is ${cost}`)// template literal
+console.log(" the time is 5'o clock ")
+console.log(' the gandhi said " good night "')
+let str= " javascript is so easy "
+console.log(str.length)//23
+console.log(str.charAt(1),str[1])
+console.log(str.indexOf('a')) // returns index of first occurence of element
+console.log(str.lastIndexOf('a')) // returns the index of last occurence of element
+console.log(str.toUpperCase())
+console.log(str.toLowerCase())
+console.log(str.startsWith('j')) //false
+console.log(str.endsWith('easy')) //true
+console.log(str.split(' '))
+console.log(str.trim()) //remove front and back spaces
+console.log(str.replace('a', 'b'))
+let str1= "billu"
+console.log(str1.concat(" tinky"), str1 + " tinky")
+console.log(str1.includes('b',2))
+console.log(str1.slice(1,4))
+console.log(str1.search("llu"))
 
-
-
-
-
-
-
-   c.boolean
-   d.null
-   e.undefined
+   c.boolean : Boolean is used to hold values true/false
+   true --- 1, false --- 0
+   what is the difference between undefined and null
+   d.null:null represents definite absence of value
+   e.undefined: undefined represents accidental absence of value
  ii. non-primitive: non primitive data types considers address. they are also called reference data types
  Popular non-primitive data types are:
    a. Arrays

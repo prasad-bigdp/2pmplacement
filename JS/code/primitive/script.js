@@ -31,12 +31,16 @@ console.log(str.startsWith('j')) //false
 console.log(str.endsWith('easy')) //true
 console.log(str.split(' '))
 console.log(str.trim()) //remove front and back spaces
-console.log(str.replace('a','b'))
-
-
-
-
-
+console.log(str.replace('a', 'b'))
+let str1= "billu"
+console.log(str1.concat(" tinky"), str1 + " tinky")
+console.log(str1.includes('b',2))
+console.log(str1.slice(1,4))
+console.log(str1.search("llu"))
+/* boolean */
+/* boolean holds true/false and they are used for conditional logics. true --1, false --0 */
+let x = true
+console.log(x,typeof x)
 
 
 

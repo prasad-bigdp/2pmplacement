@@ -1,0 +1,31 @@
+Operators are used to perform operation between operands
+a+b is an addition operation, a and b are operands and
+ + is operator. There are different types of Operators
+ 1. Arithematic operators, these operators are used to perform Arithematic operations
+ eg: + , - ,* ,/ ,% , **
+ 2. Relational Opeators: these operators are used for comparison
+ eg: >,<,>=,<=,!=,==,===,!==
+ 3. Assignment Operators: these Operators are used for assigning the values
+ eg: +=, -= ,*=, /= ,%= ,**=,=
+let a=20;
+a+=2 ==> a=a+2
+4.logical operators: logical operators are used to make combined conditional logics
+&&, ||, !
+5. incr & dicr: increment and decrementors are operators (++/-- which are used to increase the value by 1 or to decrease it by one)
+incr/decr have two variations Pre and post 
+6. unary + : unary plus is used to convert any value into number
++"26"  will become number 26
+7. ternary operator/conditional operator:
+let a= (10>25) ? "abc" : "xyz" ;
+// let isHeGood = false
+let isHeOkay= isHeGood ? false : true ;
+8. nullish coelsion operator: it is used to get the values which are not undefined( ?? )
+
+
+
+
+
+
+
+
+
