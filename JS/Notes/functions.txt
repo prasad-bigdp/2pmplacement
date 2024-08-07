@@ -1,1 +1,62 @@
 // function is used to define/perform a specific task. your whole program will be divided into certain logical parts and each part is called function
+// simple function
+function function-name() // fn declaration
+{
+    //body
+}
+function-name()
+function sum()
+{
+    console.log("something")
+}
+sum()
+
+// pass parameters
+function sum(a,b=5){
+    console.log(a+b)
+}
+sum(5,6)
+sum(5)
+
+//return values
+function sum(a,b)
+{
+    return a+b;
+}
+sum(5,6)
+
+// functions are treated as variables called as function expressions
+var sum= function(a,b){
+    return a+b;
+}
+sum(5,6)
+// arrow function
+var sum = (a,b) => a+b;
+//callback functions
+function add(a,b){
+    console.log("addition is" +(a+b))
+}
+var sub = (a,b)=> console.log("subraction is"+(a-b))
+function calculator(p,q){
+    p(5,6)
+    q(5,6)
+}
+calculator(add,sub)
+a callback fn is a function which can be passed as a parameter to another function
+A higher Order Function receives another functions as a parameter
+
+closure:
+closure means an inner function remembers outer function values even after outer function execution ended
+function x()
+{
+    var a=5;
+    function y()
+    {
+        a*=2;
+        console.log(a)
+    }
+    return y;
+}
+let z= x();
+z()
+z()

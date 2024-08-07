@@ -90,7 +90,8 @@ function x2 (){
     }
     return y;
 }
-let z = x2(); console.log(z);
+let z = x2();
+console.log(z);
 z();
 z();
 

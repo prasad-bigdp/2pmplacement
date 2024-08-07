@@ -1,0 +1,9 @@
+//JS Basics
+introduction
+variables(var,let,const)
+js engines,execution content,hoisting
+data types(primitve,non primitve)
+primitve(number- math methods, strings - methods, boolean,undefined,null),
+non-primitve--
+ -- functions(function expression,callback,arrow fn, closure)
+ -- arrays and objects
