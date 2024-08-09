@@ -7,3 +7,11 @@ primitve(number- math methods, strings - methods, boolean,undefined,null),
 non-primitve--
  -- functions(function expression,callback,arrow fn, closure)
  -- arrays and objects
+control statements -if, switch
+loops - while,dowhile,for,for..in,fo..of,forEach
+
+//DOM
+--- DOM selection
+--- DOM Manipulation
+--- events
+--- DOM Creation

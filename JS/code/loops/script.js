@@ -40,9 +40,9 @@ for (let k in arr)
     console.log(k)
 }
 // ["Ajay Raj","John Doe","Raj shekhar","Pooja Begum"]-- ["AR","JD","RS","PB"]
-let w=''
-w += "Ajay Raj".split(" ").map(ele => ele[0]);
-console.log(w)
+let w=[]
+w = "Ajay Raj".split(" ").map(ele => ele[0]);
+console.log(w.join(''))
 
 
 
