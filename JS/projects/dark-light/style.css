@@ -1,0 +1,20 @@
+.dark{
+    background-color: black;
+    color: white;
+}
+body{
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 34px;
+}
+.input{
+    border:1px solid black
+}
+#inp{
+    border: none;
+    height: 100%;
+    font-size: 24px;
+}

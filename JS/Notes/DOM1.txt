@@ -1,1 +1,17 @@
 Document Object Model(DOM):
+Complete HTML and CSS can be controlled by document object since document contains complete HTML and CSS of that web page
+  --  DOM Selection:  we can select an element from HTML using DOM by following methods
+     i. document.getElementsByTagname('tagname'): it selects all the elements of that particular tag in HTMl and returns an array of HTML Collection
+     ii. document.getElementsByClassName('classname'): it selects all the elements of that particlar classname and returns an array of HTML Collection
+     iii. document.getElementById('idname'):it selects nad returns an element with particular ID
+     iv. document.querySelector('query'): it returns element which occurred first and satisfied the query.
+     v. document.querySelectorAll('query') : it selects all elements which satisfies the query
+  
+ -- DOM Manipulation: 
+  we can manipulate the HTML elements we created using 
+   i. textContent: used to get/update text inside an element
+   ii. innerText: used to get/update text inside an element but also considers css. when visibility hidden it cannot see the element
+   iii. innerHTML : Executes the HTML code and updates the value inside an element
+   iv. value: used to get / update value inside an input element
+   v. style: we can even change style using style attribute
+   vi. we can even change classnames using classList.add()/remove()/toggle()

@@ -1,0 +1,8 @@
+#main{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    gap: 20px;
+}
+.cartoon img{
+    height: 300px;
+}
