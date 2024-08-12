@@ -1,0 +1,16 @@
+#main{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    padding: 50px 100px;
+}
+.movie{
+    box-shadow: 5px 5px black;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+.movie img{
+    height: 300px;
+}
