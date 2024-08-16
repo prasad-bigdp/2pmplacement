@@ -1,0 +1,16 @@
+Javascript is a synchrounous single threaded programming lanaguage
+
+Any Function that takes time to run is Asynchronous Function
+Every Asynchronous function will return Promise
+A Promise is an object to describe an eventual completion of an Asynchronous operation
+
+API(Application Programming Interface):
+Backend connected to Database will create an API endpoint that consists data in XML/JSON format
+https://api.quotable.io/random , in this url is https://api.quotable.io  and /random is called endpoint
+
+
+
+
+
+
+
