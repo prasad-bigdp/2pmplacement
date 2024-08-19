@@ -1,0 +1,9 @@
+Ecmascript releases different versions for all scripting languages including Javascript. ES6 brought lot of changes into javascript by introducing arrow functions,oops concepts,template literals,rest vs spread parameters,destructuring,modules etc..,
+
+ES6 released in 2015 also called as ES2015
+
+We already discussed arrow functions, template literals
+
+Rest vs Spread Operator:
+rest operator is denoted by three dots(...)
+spread operator also denoted by three dots(...)
