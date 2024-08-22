@@ -15,3 +15,18 @@ loops - while,dowhile,for,for..in,fo..of,forEach
 --- DOM Manipulation
 --- events
 --- DOM Creation
+
+//Async
+ -- Timers(setTimeout,setInterval)
+ -- fetch
+ -- promises, promise chaining
+ -- async await
+ -- ES6(template literals,arrow,rest vs spread,destructuring
+ modules,classes and objects,inheritance)
+ -- advanced data types
+ -- BOM
+ -- Libraries
+
+
+
+

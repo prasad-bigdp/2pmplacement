@@ -1,0 +1,19 @@
+Library: Library is nothing but predefined code used for specific purpose
+eg: react js is a library for UI purposes
+Framework : Framework is nothing but a complete package for a project
+eg: Angular is a Framework
+
+popular JS libraries are 
+jquery
+typed js
+slick js,own carousel,tns slider,swiper js
+anime js, GSAP, three js
+react
+axios
+
+etc..,
+
+
+
+
+

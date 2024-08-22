@@ -1,0 +1,30 @@
+Your whole JS engine is maintained by one Object  -- window
+window maintains global Execution content
+window contains document,fetch,console,timers , location,geolocation,navigator etc..,
+understanding about browser object is know as Browser object Model(BOM)
+
+// any geo location
+window.navigator.geolocation.getCurrentPosition((pos)=>console.log(pos.coords))
+
+// window.location -- used to manipulate current url
+
+// window.navigator.mediaDevices.getUserMedia({video:true}).then(S=>)
+
+//memory storage
+Browsers can store the data
+i. localStorage: it stores the data in browser permanantly
+ii. sessionStorage: it stores the data in browser but the moment browser closed, data will be erased
+localStorage.setItem('name', 'prasad');
+console.log(localStorage.getItem('name'))
+console.log(localStorage.removeItem('name'))
+localStorage.clear()
+
+what is cache?
+temporary memory for fast retrieval
+what is session?
+session is a duration used for auth token
+
+
+
+
+

@@ -15,3 +15,8 @@ function getVideo ()
    
 
 }
+
+localStorage.setItem('name', 'prasad');
+console.log(localStorage.getItem('name'))
+console.log(localStorage.removeItem('name'))
+localStorage.clear()
