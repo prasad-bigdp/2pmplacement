@@ -1,0 +1,20 @@
+1.set: it is used to store or manipulate unique value as a array
+  -- add () - is used to add the value
+  -- delete() - is used to delete the value
+  -- clear() - will clear whole set
+  -- has()- will check whether given set has that element or not
+2.Map: Map is used to store or manipulate unique key values;
+  -- set is used to set key and value
+  -- get is used to get value based on a key
+  -- delete -- is used to delte the values
+
+3.date: date is used to store or get the current date/time/any related data
+ new object created from Date class can be used to get or set date related values
+
+4. regex: it is used to select / create/test regular expressions for a specific patterns
+  -- test() - used for testing certain regular expression matches or not
+  -- match()- used to retieve first matched resular expressions
+
+ 
+
+4. regex

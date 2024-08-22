@@ -4,6 +4,136 @@ ES6 released in 2015 also called as ES2015
 
 We already discussed arrow functions, template literals
 
+Arrow functions:
+function display()
+{
+    console.log("hello world")
+}
+const display=()=>console.log("hello world")
+
+template Literals:
+let a=20;let b=30;
+console.log("the sum of "+a+" and "+b+" is "+(a+b))
+console.log(`the sum of ${a} and ${b} is ${a+b}`)
+
+let and const: they are introduced in ES6 and they are block scoped variables
+
 Rest vs Spread Operator:
-rest operator is denoted by three dots(...)
-spread operator also denoted by three dots(...)
+rest operator is denoted by three dots(...): rest is used to group the rest of the elements as array in parameters
+spread operator also denoted by three dots(...): spread is used to spread out the values inside an array
+
+function display (a, b, ...c) // rest operator
+{
+  let arr=[...c] // spread operator
+  console.log(a,b,c)
+}
+display(5,4,3,5,8)
+
+Destructuring: This Es6 features allow you to destruvture any array or object
+let employee= {
+    name:"raj",
+    email:"abc@abx.com"
+}
+const {name,email}= employee;
+let arr=[5,4,3,2,1]
+const [a,b,...c]= arr;
+
+Object Oriented Programming: Js is not fully object oriented but it started from ES6.
+Object is a physical entity with specific properties and methods
+apple 
+mango 
+fruit -- shape,color,taste -- ripe()
+
+Eg: cars - class
+kia
+bmw
+rolls royce
+
+class Car
+{
+  name; price; color;
+}
+/* create a class Electronis and create two objects and assign values and console them */
+let obj1 = new Car()
+obj1.name="kia"
+let obj2 = new Car()
+obj2.name = "mercedes"
+console.log(obj1.name,obj2.name)
+
+
+class Employee
+{
+  ename; eid; esalary;
+  constructor(i,n,s)
+  {    
+    this.eid = i;  // this is a current calling object
+    this.esalary = s;
+    this.ename=n
+  }
+  getData ()
+  {
+    console.log(this.eid,this.ename,this.esalary)
+  }
+}
+console.log(typeof Employee)
+let emp2 = new Employee(1234, "prasad", 80000)
+emp2.getData()
+
+/* create a class teacher and use constructor to asiign values for tname,tid,tsalry and create teacher objects and print in console */
+class Manager extends Employee
+{
+  team;
+  constructor(i, n, s, t)
+  {
+    super(i, n, s);
+    this.team = t;
+  }
+}
+let m1 = new Manager(24, "jessica", 95000, 4)
+console.log(m1.ename)
+
+/* use inheritance and declare a class principle extending teacher with attribute like profit */
+
+Modules:
+Imagine you have two js files and you want to use values of one js in another.
+Before Es6 we have Several Module Systems like UDP,common Js,require js. but Es6 introduces ES6 Module Systems
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
