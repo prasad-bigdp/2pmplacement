@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    font-family: "Noto Sans", sans-serif;
+}
+#productsList{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+.product{
+    box-shadow: 5px 5px black;
+    border-radius: 20px;
+    padding: 20px;
+}

@@ -27,7 +27,21 @@ function display (a, b, ...c) // rest operator
   let arr=[...c] // spread operator
   console.log(a,b,c)
 }
-display(5,4,3,5,8)
+display(5,4,3,5,8,8,6)
+
+function fruits(a,...b)
+{
+  console.log(a,b)
+  let newFruits =["orange",...b]
+  console.log(newFruits)
+}
+fruits("apple","banana","pineapple","mango")
+
+
+
+
+
+
 
 Destructuring: This Es6 features allow you to destruvture any array or object
 let employee= {
@@ -99,8 +113,10 @@ Imagine you have two js files and you want to use values of one js in another.
 Before Es6 we have Several Module Systems like UDP,common Js,require js. but Es6 introduces ES6 Module Systems
 
 
-
-
+export {a};
+export default b;
+import {a} from 'path'
+import b from 'path'
 
 
 

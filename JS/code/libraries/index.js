@@ -1,6 +1,5 @@
 $('#btn').click(function () { 
-    $('#myDiv').slideToggle(5000)
-    
+    $('#myDiv').slideToggle(5000) 
 });
 var typed = new Typed("#myElement", {
 	strings: ["Full stack devloper", "Good Boy"],
