@@ -22,13 +22,18 @@ const displayData = (data) =>
         const proImage = document.createElement('img');
         proImage.src = p.thumbnail;
         proImage.alt = p.title;
+        const proLink = document.createElement('a');
+        proLink.href = `./product.html?pid=${p.id}`
+        proLink.target='_blank'
         const proTitle = document.createElement('h2');
-        proTitle.textContent= p.title
+        proTitle.textContent = p.title
+        proLink.append(proTitle)
         const proPrice = document.createElement('p');
         proPrice.textContent= "Price: $"+p.price
         const addCartButton = document.createElement('button')
         addCartButton.textContent = "ADD CART"
-        proDiv.append(proImage, proTitle, proPrice, addCartButton);
+        addCartButton.addEventListener('click',()=>addCartFn(p))
+        proDiv.append(proImage, proLink, proPrice, addCartButton);
         mainDiv.appendChild(proDiv)
     })
 }
