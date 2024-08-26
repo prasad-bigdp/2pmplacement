@@ -12,3 +12,12 @@ body{
     border-radius: 20px;
     padding: 20px;
 }
+.cartItem{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cartItem img{
+    height: 100px;
+    width: 100px;
+}

@@ -26,5 +26,6 @@ const displayData = (data) =>
     proPrice.textContent = "Price : $" + data.price
     const AddCartButton = document.createElement('button');
     AddCartButton.textContent = "Add to cart";
+    AddCartButton.addEventListener("click", () => addCartFn(data))
     rightDiv.append(proTitle,proPrice,AddCartButton)
 }
